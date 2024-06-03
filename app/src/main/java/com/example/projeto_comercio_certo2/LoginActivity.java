@@ -20,8 +20,8 @@ public class LoginActivity extends AppCompatActivity {
 
 
     // Dados de login de exemplo (pode ser substituído por um banco de dados ou autenticação real)
-    private static final String EXAMPLE_EMAIL = "user@example.com";
-    private static final String EXAMPLE_PASSWORD = "password123";
+    private static final String EXAMPLE_EMAIL = "adm123@email.com";
+    private static final String EXAMPLE_PASSWORD = "senha";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

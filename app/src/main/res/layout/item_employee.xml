@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtEmployeeName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome do Funcionário" />
+
+        <TextView
+            android:id="@+id/txtEmployeeAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Idade do Funcionário" />
+
+        <!-- TextView para exibir o cargo do funcionário -->
+        <TextView
+            android:id="@+id/txtEmployeePosition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cargo do Funcionário" />
+
+        <!-- TextView para exibir o salário do funcionário -->
+        <TextView
+            android:id="@+id/txtEmployeeSalary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salário do Funcionário" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
